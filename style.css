@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+h1 { text-align: center; }
+
+#footer { text-align: center; }
+
+#footer img {
+  -webkit-transition: all .25s ease;
+     -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+          transition: all .25s ease;
+}
+
+#footer img:hover {
+  -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
